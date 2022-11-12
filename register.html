@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+        integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin/css/styles.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="topnav">
+            <div id="logo">
+                <h1>
+                    <span class="Kide">Kide Bank</span>
+                    <span class="piggy"><i class='fas fa-piggy-bank'></i></span>
+                </h1>
+            </div>
+            <ul>
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="register.html">Apply</a></li>
+                <li class="nav-item"><a href="plans.html">Choose Plan</a></li>
+                <li class="nav-item"><a href="login.html">Profile</a></li>
+                <li class="nav-item"><a href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a href="contact.php">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class='fas fa-align-justify'></i>
+            </div>
+        </nav>
+    </header>
+
+<body id="signup_body">
+    <h2 id="signup">Kide Bank</h2>
+    <form action="connect.php" method="post" id="reg_form" name="app_form">
+        <h3>Register to Create an Account</h3>
+        <h4>Achieving your dreams as a community starts by registering</h4>
+        <fieldset class="group_info">
+            <legend>Personal Info</legend>
+            <label for="first">First name:</label>
+            <input type="text" id="first" name="first">
+            <br>
+            <label for="last">Last name:</label>
+            <input type="text" id="last" name="last">
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+            <br>
+            <label for="postcode">Postal Code:</label>
+            <input type="text" id="postcode" name="postcode">
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="phone" id="phone" name="phone">
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <label for="email">Email Name:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+        </fieldset>
+
+        <fieldset class="group_info">
+            <legend>Bank Info</legend>
+            <label for="acc_name">Account Name:</label>
+            <input type="text" id="acc_name" name="acc_name">
+            <br>
+            <label for="acc_no">Account Number:</label>
+            <input type="number" id="acc_no" name="acc_no">
+            <br>
+            <label for="bank_name">Bank Name:</label>
+            <input type="text" id="bank_name" name="bank_name">
+            <br>
+
+       
+            
+            <input type="submit" value="Register" id="button">
+
+            <a href="index.html"><i class='fas fa-arrow-alt-circle-left'></i>Back</a>
+
+    </form>
+
+
+
+</body>
+
+</html>
